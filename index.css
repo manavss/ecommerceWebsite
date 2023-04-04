@@ -1,0 +1,19 @@
+@tailwind base;
+*::-webkit-scrollbar {
+  width: 10px;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(#1d2cd4, #717ea4);
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary;
+  }
+}
